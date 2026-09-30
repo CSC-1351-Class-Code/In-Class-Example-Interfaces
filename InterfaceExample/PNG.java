@@ -2,16 +2,16 @@ package InterfaceExample;
 
 import java.io.File;
 
-import InterfaceExample.Interfaces.FileType;
+import InterfaceExample.__.__;
 
 // PNGs are a File that can be saved and loaded, so we implement the interface FileType
-public class PNG implements FileType {
+public class PNG implements __ {
 	// Methods from FileType
-	public void load(File f){
+	public void __(File f){
 		System.out.println("Loading a PNG");
 	}
 
-	public void save(){
+	public void __(){
 		System.out.println("Saving a PNG");
 	}
 }
